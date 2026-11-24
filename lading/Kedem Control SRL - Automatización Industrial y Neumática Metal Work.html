@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kedem Control SRL | Automatización Industrial y Neumática Metal Work en Bolivia</title>
+  <meta name="description" content="Kedem Control SRL: Servicios de automatización industrial, asesoría técnica y venta de productos neumáticos Metal Work en Santa Cruz y toda Bolivia. Cilindros Serie 3 y RHV, electroválvulas Serie 70 y Namur, racores y tuberías PU.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1e3a8a">
+
+  <!-- DATOS ESTRUCTURADOS SEO LOCAL Y CATÁLOGO INDUSTRIAL (SCHEMA.ORG JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Kedem Control SRL",
+    "description": "Servicio de automatización industrial, asesoría técnica y comercialización de productos neumáticos de la marca Metal Work en Santa Cruz y para toda Bolivia.",
+    "telephone": "+59169581903",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Cruz de la Sierra",
+      "addressRegion": "Santa Cruz",
+      "addressCountry": "BO"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Bolivia"
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "Metal Work"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Productos Neumáticos Metal Work y Servicios Industriales",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Cilindros Neumáticos Serie 3 y Serie RHV Metal Work"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Electroválvulas Serie 70 y Serie Namur Metal Work"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Válvulas Solenoide Industriales"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Racores de Conexión Rápida"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Tuberías de Poliuretano"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Servicios Industriales, Automatización y Asesoría Técnica"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       1. RESET MODERNO Y TOKENS DE DISEÑO (WCAG 2.1/2.2 AA & FLUJO INTRÍNSECO)
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      /* Paleta Industrial & Ingeniería de Control (Contraste mínimo >= 4.5:1) */
+      --primary: #1e3a8a;         /* Azul Marino Ingeniería (Contraste 10.36:1 sobre blanco) */
+      --primary-hover: #172554;   /* Azul Marino Profundo */
+      --accent: #0369a1;          /* Cian Técnico Neumático (Contraste 5.93:1 sobre blanco) */
+      --accent-soft: #e0f2fe;     /* Fondo sutil técnico */
+      --whatsapp: #15803d;        /* Verde Acción WhatsApp (Contraste 5.13:1 sobre blanco) */
+      --whatsapp-hover: #166534;
+      --bg: #f8fafc;              /* Superficie base */
+      --surface: #ffffff;         /* Tarjetas y contenedores */
+      --surface-alt: #f1f5f9;     /* Banda de contraste sutil */
+      --text: #0f172a;            /* Texto principal de máxima legibilidad */
+      --text-muted: #475569;      /* Texto secundario técnico */
+      --border: #cbd5e1;          /* Bordes nítidos */
+      --border-light: #e2e8f0;
+
+      /* Escala Tipográfica y Espaciado Fluido (Matemática clamp()) */
+      --font-h1: clamp(1.85rem, 1.8vw + 1.4rem, 3.15rem);
+      --font-h2: clamp(1.45rem, 1.2vw + 1.15rem, 2.25rem);
+      --font-h3: clamp(1.15rem, 0.5vw + 1.05rem, 1.375rem);
+      --font-body: clamp(1rem, 0.25vw + 0.95rem, 1.125rem);
+      --font-small: clamp(0.875rem, 0.15vw + 0.84rem, 0.95rem);
+
+      --space-section: clamp(3rem, 5vw + 1.5rem, 5.75rem);
+      --gutter: clamp(1rem, 2vw + 0.5rem, 2rem);
+      --radius-sm: 0.5rem;
+      --radius-md: 0.75rem;
+      --radius-lg: 1rem;
+
+      /* Elevaciones y Transiciones en Hilo Compositor */
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+      --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -2px rgba(15, 23, 42, 0.05);
+      --shadow-lg: 0 14px 28px -6px rgba(15, 23, 42, 0.12), 0 4px 10px -4px rgba(15, 23, 42, 0.06);
+      --transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+      --header-height: 76px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-height) + 1rem);
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      font-size: var(--font-body);
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img, svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    /* Accesibilidad: Enlace de salto directo al contenido */
+    .skip-link {
+      position: absolute;
+      inset-inline-start: 1rem;
+      inset-block-start: -100px;
+      background: var(--primary);
+      color: #ffffff;
+      padding: 0.75rem 1.25rem;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      z-index: 2000;
+      text-decoration: none;
+      transition: inset-block-start var(--transition);
+    }
+
+    .skip-link:focus {
+      inset-block-start: 1rem;
+    }
+
+    /* Indicador de foco universal WCAG 2.2 AA */
+    :focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    /* ==========================================================================
+       2. LAYOUTS FLUIDOS Y TIPOGRAFÍA
+       ========================================================================== */
+    .container {
+      width: min(100% - (var(--gutter) * 2), 1200px);
+      margin-inline: auto;
+    }
+
+    section {
+      padding-block: var(--space-section);
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.015em;
+    }
+
+    h1 { font-size: var(--font-h1); }
+    h2 { font-size: var(--font-h2); }
+    h3 { font-size: var(--font-h3); }
+
+    .section-header {
+      max-width: 720px;
+      margin-block-end: clamp(2rem, 3.5vw, 3rem);
+    }
+
+    .section-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: var(--font-small);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-block-end: 0.65rem;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      margin-block-start: 0.75rem;
+    }
+
+    /* ==========================================================================
+       3. BOTONES Y OBJETIVOS TÁCTILES ACCESIBLES (>= 48x48px)
+       ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      min-height: 48px;
+      min-width: 48px;
+      padding-block: 0.75rem;
+      padding-inline: 1.35rem;
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.2;
+      text-decoration: none;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: transform var(--transition), background-color var(--transition), border-color var(--transition), box-shadow var(--transition);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: #ffffff;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-whatsapp {
+      background-color: var(--whatsapp);
+      color: #ffffff;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-whatsapp:hover {
+      background-color: var(--whatsapp-hover);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-outline {
+      background-color: var(--surface);
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .btn-outline:hover {
+      background-color: var(--primary);
+      color: #ffffff;
+    }
+
+    /* ==========================================================================
+       4. CABECERA Y NAVEGACIÓN CORPORATIVA FIJA
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      inset-block-start: 0;
+      z-index: 1000;
+      background-color: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(8px);
+      border-block-end: 1px solid var(--border-light);
+      min-height: var(--header-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--text);
+      min-height: 48px;
+    }
+
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-sm);
+      background-color: var(--primary);
+      color: #ffffff;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-weight: 800;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+      color: var(--primary);
+      line-height: 1.1;
+    }
+
+    .brand-tagline {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      list-style: none;
+    }
+
+    .nav-links a:not(.btn) {
+      display: inline-flex;
+      align-items: center;
+      min-height: 48px;
+      padding-inline: 0.9rem;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border-radius: var(--radius-sm);
+      transition: color var(--transition), background-color var(--transition);
+    }
+
+    .nav-links a:not(.btn):hover {
+      color: var(--primary);
+      background-color: var(--surface-alt);
+    }
+
+    .menu-toggle {
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      min-width: 48px;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    @media (max-width: 900px) {
+      .menu-toggle {
+        display: inline-flex;
+      }
+
+      .nav-links {
+        position: absolute;
+        inset-block-start: var(--header-height);
+        inset-inline: 0;
+        background-color: var(--surface);
+        border-block-end: 1px solid var(--border);
+        box-shadow: var(--shadow-lg);
+        flex-direction: column;
+        align-items: stretch;
+        padding: 1rem var(--gutter) 1.5rem;
+        gap: 0.5rem;
+        display: none;
+      }
+
+      .nav-links.is-open {
+        display: flex;
+      }
+
+      .nav-links .btn {
+        width: 100%;
+        margin-block-start: 0.5rem;
+      }
+    }
+
+    /* ==========================================================================
+       5. HERO SECTION (REGLA DE LOS 3 SEGUNDOS & LCP OPTIMIZADO)
+       ========================================================================== */
+    .hero {
+      background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
+      border-block-end: 1px solid var(--border-light);
+      padding-block: clamp(2.5rem, 5vw, 4.5rem);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr));
+      align-items: center;
+      gap: clamp(2rem, 4vw, 3.5rem);
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: var(--font-small);
+      padding-block: 0.4rem;
+      padding-inline: 0.9rem;
+      border-radius: 999px;
+      border: 1px solid rgba(3, 105, 161, 0.25);
+      margin-block-end: 1.15rem;
+    }
+
+    .hero-title span {
+      color: var(--primary);
+    }
+
+    .hero-lead {
+      color: var(--text-muted);
+      margin-block: 1.15rem 1.75rem;
+      max-width: 60ch;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-block-end: 2rem;
+    }
+
+    .hero-trust-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      padding-block-start: 1.5rem;
+      border-block-start: 1px solid var(--border-light);
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+    }
+
+    .trust-icon {
+      color: var(--accent);
+      flex-shrink: 0;
+      margin-block-start: 0.15rem;
+    }
+
+    .trust-item strong {
+      display: block;
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.25;
+    }
+
+    .trust-item span {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .hero-visual {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: clamp(1rem, 2.5vw, 1.75rem);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-visual img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 13 / 10;
+      border-radius: var(--radius-sm);
+    }
+
+    .hero-visual-caption {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-block-start: 0.9rem;
+      padding-block-start: 0.75rem;
+      border-block-start: 1px solid var(--border-light);
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    /* ==========================================================================
+       6. CATÁLOGO DE PRODUCTOS Y SERVICIOS (CONTAINER QUERIES)
+       ========================================================================== */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-block-end: 2rem;
+    }
+
+    .filter-btn {
+      min-height: 48px;
+      min-width: 48px;
+      padding-block: 0.6rem;
+      padding-inline: 1.15rem;
+      border-radius: 999px;
+      border: 1.5px solid var(--border);
+      background-color: var(--surface);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color var(--transition), color var(--transition), border-color var(--transition);
+    }
+
+    .filter-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .filter-btn[aria-pressed="true"] {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+      gap: var(--gutter);
+    }
+
+    .card-container {
+      container-type: inline-size;
+      container-name: product-card;
+    }
+
+    .card-container[hidden] {
+      display: none;
+    }
+
+    .product-card {
+      height: 100%;
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.65rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.25rem;
+      transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--accent);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-block-end: 1rem;
+    }
+
+    .card-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: var(--radius-sm);
+      background-color: var(--accent-soft);
+      color: var(--primary);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .card-tag {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      background-color: var(--surface-alt);
+      padding: 0.3rem 0.65rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-light);
+    }
+
+    .product-card h3 {
+      margin-block-end: 0.6rem;
+      color: var(--text);
+    }
+
+    .product-card p {
+      color: var(--text-muted);
+      font-size: 0.96rem;
+      margin-block-end: 1rem;
+    }
+
+    .spec-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+      padding-block-start: 0.85rem;
+      border-block-start: 1px solid var(--border-light);
+      font-size: 0.88rem;
+      color: var(--text);
+    }
+
+    .spec-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .spec-list li::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .card-cta {
+      width: 100%;
+      margin-block-start: auto;
+    }
+
+    @container product-card (min-width: 480px) {
+      .product-card {
+        padding: 2rem;
+      }
+    }
+
+    /* ==========================================================================
+       7. VALOR CORPORATIVO E INGENIERÍA DE APLICACIÓN
+       ========================================================================== */
+    .pillars-section {
+      background-color: var(--surface-alt);
+      border-block: 1px solid var(--border-light);
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+      gap: var(--gutter);
+    }
+
+    .pillar-box {
+      background-color: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .pillar-number {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: #ffffff;
+      background-color: var(--primary);
+      padding: 0.25rem 0.65rem;
+      border-radius: 0.35rem;
+      margin-block-end: 1rem;
+    }
+
+    .pillar-box h3 {
+      margin-block-end: 0.5rem;
+    }
+
+    .pillar-box p {
+      color: var(--text-muted);
+      font-size: 0.96rem;
+    }
+
+    /* ==========================================================================
+       8. COBERTURA NACIONAL, UBICACIÓN Y ASISTENTE DE COTIZACIÓN RÁPIDA
+       ========================================================================== */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+      gap: clamp(1.75rem, 3.5vw, 3rem);
+      align-items: start;
+    }
+
+    .info-panel {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: clamp(1.75rem, 3vw, 2.5rem);
+      box-shadow: var(--shadow-md);
+    }
+
+    .info-panel h2 {
+      color: #ffffff;
+      margin-block-end: 0.75rem;
+    }
+
+    .info-panel > p {
+      color: #e2e8f0;
+      margin-block-end: 1.75rem;
+    }
+
+    .info-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-block-end: 2rem;
+    }
+
+    .info-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+    }
+
+    .info-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      background-color: rgba(255, 255, 255, 0.14);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .info-list strong {
+      display: block;
+      font-size: 1rem;
+      margin-block-end: 0.15rem;
+    }
+
+    .info-list span, .info-list a {
+      color: #e2e8f0;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+
+    .info-list a:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+
+    .quote-builder {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.75rem, 3vw, 2.5rem);
+      box-shadow: var(--shadow-md);
+    }
+
+    .quote-builder h3 {
+      font-size: clamp(1.3rem, 1vw + 1rem, 1.65rem);
+      margin-block-end: 0.5rem;
+    }
+
+    .quote-builder > p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-block-end: 1.5rem;
+    }
+
+    .form-group {
+      margin-block-end: 1.15rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      font-size: 0.92rem;
+      margin-block-end: 0.4rem;
+      color: var(--text);
+    }
+
+    .form-control {
+      width: 100%;
+      min-height: 48px;
+      padding-block: 0.65rem;
+      padding-inline: 0.9rem;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 1rem;
+      color: var(--text);
+      background-color: var(--surface);
+      transition: border-color var(--transition);
+    }
+
+    .form-control:focus {
+      border-color: var(--primary);
+    }
+
+    textarea.form-control {
+      min-height: 96px;
+      resize: vertical;
+    }
+
+    /* ==========================================================================
+       9. PIE DE PÁGINA CORPORATIVO
+       ========================================================================== */
+    .site-footer {
+      background-color: #0f172a;
+      color: #cbd5e1;
+      padding-block: 3rem 2rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+      gap: 2rem;
+      padding-block-end: 2rem;
+      border-block-end: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .footer-brand {
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 1.2rem;
+      margin-block-end: 0.6rem;
+    }
+
+    .footer-heading {
+      color: #ffffff;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-block-end: 0.85rem;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .footer-links a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 0.92rem;
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+    }
+
+    .footer-links a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      padding-block-start: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.875rem;
+      color: #94a3b8;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- CABECERA CORPORATIVA -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo" aria-label="Kedem Control SRL - Inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="12" height="10" rx="2"/>
+            <line x1="14" y1="12" x2="22" y2="12"/>
+            <line x1="22" y1="8" x2="22" y2="16"/>
+            <line x1="6" y1="4" x2="6" y2="7"/>
+            <line x1="10" y1="4" x2="10" y2="7"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Kedem Control SRL</span>
+          <span class="brand-tagline">Automatización &amp; Neumática</span>
+        </span>
+      </a>
+
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#servicios">Productos y Servicios</a></li>
+          <li><a href="#nosotros">Enfoque Técnico</a></li>
+          <li><a href="#cobertura">Cobertura y Ubicación</a></li>
+          <li>
+            <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20deseo%20solicitar%20informaci%C3%B3n%20y%20cotizaci%C3%B3n%20sobre%20productos%20neum%C3%A1ticos%20Metal%20Work%20y%20automatizaci%C3%B3n%20industrial."
+               class="btn btn-whatsapp"
+               target="_blank"
+               rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+              Cotizar por WhatsApp
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+
+    <!-- SECCIÓN HERO CORPORATIVA -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Especialistas en Neumática Industrial Metal Work
+          </div>
+
+          <h1 id="hero-heading" class="hero-title">
+            Automatización Industrial y Componentes Neumáticos <span>Metal Work</span> para Toda Bolivia
+          </h1>
+
+          <p class="hero-lead">
+            En <strong>Kedem Control SRL</strong> impulsamos la continuidad operativa de su planta con suministro especializado de cilindros, electroválvulas, racores, tuberías de poliuretano y asesoría técnica industrial desde Santa Cruz hacia todo el territorio nacional.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20necesito%20asesor%C3%ADa%20t%C3%A9cnica%20y%20cotizaci%C3%B3n%20para%20mi%20planta%20industrial."
+               class="btn btn-whatsapp"
+               target="_blank"
+               rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+              Hablar con un Asesor Técnico
+            </a>
+            <a href="#servicios" class="btn btn-outline">
+              Ver Catálogo Técnico
+            </a>
+          </div>
+
+          <div class="hero-trust-strip">
+            <div class="trust-item">
+              <span class="trust-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Marca Metal Work</strong>
+                <span>Tecnología neumática industrial</span>
+              </div>
+            </div>
+
+            <div class="trust-item">
+              <span class="trust-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <circle cx="12" cy="10" r="3"/>
+                  <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Santa Cruz y Bolivia</strong>
+                <span>Despacho técnico a nivel nacional</span>
+              </div>
+            </div>
+
+            <div class="trust-item">
+              <span class="trust-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <circle cx="12" cy="12" r="3"/>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Ingeniería Aplicada</strong>
+                <span>Soporte y selección de equipos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='520' height='400' viewBox='0 0 520 400'%3E%3Crect width='520' height='400' fill='%230f172a' rx='8'/%3E%3Cg stroke='%231e293b' stroke-width='1'%3E%3Cpath d='M0 40h520M0 80h520M0 120h520M0 160h520M0 200h520M0 240h520M0 280h520M0 320h520M0 360h520M40 0v400M80 0v400M120 0v400M160 0v400M200 0v400M240 0v400M280 0v400M320 0v400M360 0v400M400 0v400M440 0v400M480 0v400'/%3E%3C/g%3E%3Crect x='24' y='24' width='472' height='352' fill='none' stroke='%23334155' stroke-width='1.5' rx='4'/%3E%3Ctext x='42' y='54' fill='%2338bdf8' font-family='monospace' font-size='13' font-weight='bold'%3EKEDEM CONTROL SRL // ESQUEMA NEUMATICO INDUSTRIAL%3C/text%3E%3Ctext x='42' y='74' fill='%2394a3b8' font-family='monospace' font-size='11'%3ELÍNEA METAL WORK: SERIE 3 / RHV / SERIE 70 / NAMUR%3C/text%3E%3Cg transform='translate(60, 120)'%3E%3Crect x='0' y='20' width='220' height='80' rx='6' fill='%231e3a8a' stroke='%2360a5fa' stroke-width='2.5'/%3E%3Crect x='14' y='12' width='26' height='96' rx='3' fill='%23334155' stroke='%2393c5fd' stroke-width='2'/%3E%3Crect x='180' y='12' width='26' height='96' rx='3' fill='%23334155' stroke='%2393c5fd' stroke-width='2'/%3E%3Cline x1='45' y1='42' x2='175' y2='42' stroke='%2360a5fa' stroke-width='2' stroke-dasharray='6 4'/%3E%3Cline x1='45' y1='78' x2='175' y2='78' stroke='%2360a5fa' stroke-width='2' stroke-dasharray='6 4'/%3E%3Crect x='206' y='46' width='145' height='28' rx='2' fill='%23cbd5e1' stroke='%23f8fafc' stroke-width='1.5'/%3E%3Crect x='351' y='34' width='24' height='52' rx='3' fill='%230284c7' stroke='%23e0f2fe' stroke-width='2'/%3E%3Ccircle cx='363' cy='60' r='7' fill='%230f172a'/%3E%3Crect x='65' y='138' width='120' height='54' rx='4' fill='%230369a1' stroke='%237dd3fc' stroke-width='2'/%3E%3Crect x='24' y='148' width='41' height='34' rx='3' fill='%231e293b' stroke='%2338bdf8' stroke-width='2'/%3E%3Cpath d='M85 138 V100 M165 138 V100' stroke='%2338bdf8' stroke-width='3' fill='none'/%3E%3Ccircle cx='85' cy='100' r='5' fill='%2338bdf8'/%3E%3Ccircle cx='165' cy='100' r='5' fill='%2338bdf8'/%3E%3Ctext x='78' y='169' fill='%23ffffff' font-family='monospace' font-size='11' font-weight='bold'%3ESERIE 70 / NAMUR%3C/text%3E%3Ctext x='54' y='64' fill='%23ffffff' font-family='monospace' font-size='12' font-weight='bold'%3ECILINDRO SERIE 3 / RHV%3C/text%3E%3C/g%3E%3Ctext x='42' y='356' fill='%2338bdf8' font-family='monospace' font-size='11'%3ESTATUS: SUMINISTRO Y SOPORTE TÉCNICO EN BOLIVIA%3C/text%3E%3C/svg%3E"
+            alt="Diagrama técnico de sistema neumático industrial y cilindros Metal Work - Kedem Control SRL"
+            width="520"
+            height="400"
+            fetchpriority="high"
+            loading="eager">
+          <div class="hero-visual-caption">
+            <span>Línea Neumática: Metal Work</span>
+            <span>Atención Directa: +591 69581903</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO DE PRODUCTOS Y SERVICIOS -->
+    <section id="servicios" aria-labelledby="servicios-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Portafolio Industrial</span>
+          <h2 id="servicios-heading">Productos Neumáticos Metal Work y Servicios Industriales</h2>
+          <p class="section-subtitle">
+            Soluciones integrales para control neumático, mantenimiento de maquinaria y automatización de líneas de producción con despacho a toda Bolivia.
+          </p>
+        </div>
+
+        <!-- Filtros interactivos accesibles -->
+        <div class="filter-bar" role="group" aria-label="Filtrar catálogo por especialidad">
+          <button type="button" class="filter-btn" data-filter="todos" aria-pressed="true">Todos (6)</button>
+          <button type="button" class="filter-btn" data-filter="actuacion-valvulas" aria-pressed="false">Cilindros y Válvulas</button>
+          <button type="button" class="filter-btn" data-filter="conduccion" aria-pressed="false">Racores y Tuberías</button>
+          <button type="button" class="filter-btn" data-filter="servicios" aria-pressed="false">Automatización y Asesoría</button>
+        </div>
+
+        <p id="filter-status" class="sr-only" aria-live="polite">Mostrando los 6 productos y servicios disponibles.</p>
+
+        <div class="catalog-grid" id="catalog-grid">
+
+          <!-- 1. Cilindros neumáticos serie 3 y serie RHV -->
+          <article class="card-container" data-category="actuacion-valvulas">
+            <div class="product-card">
+              <div>
+                <div class="card-top">
+                  <div class="card-icon-box" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="7" width="13" height="10" rx="2"/>
+                      <line x1="15" y1="12" x2="22" y2="12"/>
+                      <line x1="22" y1="9" x2="22" y2="15"/>
+                    </svg>
+                  </div>
+                  <span class="card-tag">Metal Work</span>
+                </div>
+                <h3>Cilindros Neumáticos Serie 3 y Serie RHV</h3>
+                <p>
+                  Actuadores lineales de precisión diseñados para trabajo continuo en ambientes industriales severos, asegurando movimiento repetible y alta durabilidad mecánica.
+                </p>
+                <ul class="spec-list">
+                  <li>Serie 3: Construcción normalizada robusta y versátil</li>
+                  <li>Serie RHV: Alto desempeño para aplicaciones exigentes</li>
+                  <li>Selección según diámetro, carrera y fijaciones</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20quisiera%20cotizar%20Cilindros%20Neum%C3%A1ticos%20Serie%203%20y%20Serie%20RHV%20de%20Metal%20Work."
+                 class="btn btn-primary card-cta"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Cotizar Cilindros
+              </a>
+            </div>
+          </article>
+
+          <!-- 2. Electroválvula serie 70 y serie Namur -->
+          <article class="card-container" data-category="actuacion-valvulas">
+            <div class="product-card">
+              <div>
+                <div class="card-top">
+                  <div class="card-icon-box" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="4" y="8" width="16" height="9" rx="2"/>
+                      <path d="M8 8V5h8v3"/>
+                      <line x1="9" y1="17" x2="9" y2="21"/>
+                      <line x1="15" y1="17" x2="15" y2="21"/>
+                    </svg>
+                  </div>
+                  <span class="card-tag">Metal Work</span>
+                </div>
+                <h3>Electroválvulas Serie 70 y Serie Namur</h3>
+                <p>
+                  Válvulas direccionales de alto caudal y respuesta rápida para comando de cilindros y actuadores rotativos en procesos automatizados.
+                </p>
+                <ul class="spec-list">
+                  <li>Serie 70: Montaje en línea, pared o batería múltiple</li>
+                  <li>Serie Namur: Interfaz directa para actuadores de proceso</li>
+                  <li>Configuraciones 3/2, 5/2 y 5/3 monoestables y biestables</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20deseo%20cotizar%20Electrov%C3%A1lvulas%20Serie%2070%20y%20Serie%20Namur%20Metal%20Work."
+                 class="btn btn-primary card-cta"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Cotizar Electroválvulas
+              </a>
+            </div>
+          </article>
+
+          <!-- 3. Válvulas solenoide -->
+          <article class="card-container" data-category="actuacion-valvulas">
+            <div class="product-card">
+              <div>
+                <div class="card-top">
+                  <div class="card-icon-box" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 3v5"/>
+                      <rect x="8" y="8" width="8" height="6" rx="1"/>
+                      <path d="M3 17h18"/>
+                      <path d="M7 14v3M17 14v3"/>
+                    </svg>
+                  </div>
+                  <span class="card-tag">Control Industrial</span>
+                </div>
+                <h3>Válvulas Solenoide</h3>
+                <p>
+                  Control electromagnético confiable para apertura, cierre y dosificación de aire comprimido y fluidos industriales en sistemas automatizados.
+                </p>
+                <ul class="spec-list">
+                  <li>Accionamiento directo y servoasistido</li>
+                  <li>Bobinas en distintos voltajes industriales (AC/DC)</li>
+                  <li>Alta confiabilidad operativa y fácil mantenimiento</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20necesito%20informaci%C3%B3n%20y%20cotizaci%C3%B3n%20sobre%20V%C3%A1lvulas%20Solenoide."
+                 class="btn btn-primary card-cta"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Cotizar Válvulas Solenoide
+              </a>
+            </div>
+          </article>
+
+          <!-- 4. Racores de conexión rápida -->
+          <article class="card-container" data-category="conduccion">
+            <div class="product-card">
+              <div>
+                <div class="card-top">
+                  <div class="card-icon-box" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 12h5"/>
+                      <rect x="9" y="8" width="6" height="8" rx="1"/>
+                      <path d="M15 12h5"/>
+                      <line x1="7" y1="9" x2="7" y2="15"/>
+                      <line x1="17" y1="9" x2="17" y2="15"/>
+                    </svg>
+                  </div>
+                  <span class="card-tag">Metal Work</span>
+                </div>
+                <h3>Racores de Conexión Rápida</h3>
+                <p>
+                  Conectores instantáneos de alta estanqueidad que eliminan fugas de aire comprimido y agilizan el montaje y mantenimiento de tableros y máquinas.
+                </p>
+                <ul class="spec-list">
+                  <li>Rectos, codos orientables, tes y reductores</li>
+                  <li>Roscas cilíndricas y cónicas de precisión</li>
+                  <li>Sujeción firme sin dañar la tubería neumática</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20quisiera%20cotizar%20Racores%20de%20Conexi%C3%B3n%20R%C3%A1pida%20Metal%20Work."
+                 class="btn btn-primary card-cta"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Cotizar Racores
+              </a>
+            </div>
+          </article>
+
+          <!-- 5. Tuberías de poliuretano -->
+          <article class="card-container" data-category="conduccion">
+            <div class="product-card">
+              <div>
+                <div class="card-top">
+                  <div class="card-icon-box" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 17c0-6 4-10 10-10h6"/>
+                      <path d="M4 21c0-8 6-14 14-14h2"/>
+                    </svg>
+                  </div>
+                  <span class="card-tag">Conducción</span>
+                </div>
+                <h3>Tuberías de Poliuretano</h3>
+                <p>
+                  Mangueras calibradas de poliuretano (PU) con excelente radio de curvatura, resistencia mecánica y estabilidad dimensional para circuitos neumáticos.
+                </p>
+                <ul class="spec-list">
+                  <li>Tolerancias calibradas para acople perfecto en racores</li>
+                  <li>Alta resistencia a la abrasión y flexión continua</li>
+                  <li>Disponibilidad en múltiples diámetros exteriores/interiores</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20deseo%20cotizar%20Tuber%C3%ADas%20de%20Poliuretano%20para%20uso%20industrial."
+                 class="btn btn-primary card-cta"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Cotizar Tuberías PU
+              </a>
+            </div>
+          </article>
+
+          <!-- 6. Servicios industriales y asesoría técnica -->
+          <article class="card-container" data-category="servicios">
+            <div class="product-card">
+              <div>
+                <div class="card-top">
+                  <div class="card-icon-box" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                  </div>
+                  <span class="card-tag">Ingeniería</span>
+                </div>
+                <h3>Servicios Industriales y Asesoría Técnica</h3>
+                <p>
+                  Acompañamiento técnico especializado para proyectos de automatización industrial, modernización de maquinaria y selección de componentes equivalentes.
+                </p>
+                <ul class="spec-list">
+                  <li>Dimensionamiento de cilindros y circuitos neumáticos</li>
+                  <li>Homologación y reemplazo técnico con línea Metal Work</li>
+                  <li>Soporte de automatización para plantas industriales</li>
+                </ul>
+              </div>
+              <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20solicito%20asesor%C3%ADa%20t%C3%A9cnica%20y%20servicios%20de%20automatizaci%C3%B3n%20industrial."
+                 class="btn btn-primary card-cta"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Solicitar Asesoría Técnica
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ENFOQUE CORPORATIVO E INGENIERÍA -->
+    <section id="nosotros" class="pillars-section" aria-labelledby="nosotros-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Respaldo Técnico</span>
+          <h2 id="nosotros-heading">Por Qué las Industrias Confían en Kedem Control SRL</h2>
+          <p class="section-subtitle">
+            Combinamos suministro especializado en neumática Metal Work con criterio de ingeniería para asegurar soluciones precisas y duraderas.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <div class="pillar-box">
+            <span class="pillar-number">01</span>
+            <h3>Selección Técnica Exacta</h3>
+            <p>
+              Verificamos presión de trabajo, carreras, roscas y condiciones ambientales antes de cotizar para evitar incompatibilidades y retrasos en montaje.
+            </p>
+          </div>
+
+          <div class="pillar-box">
+            <span class="pillar-number">02</span>
+            <h3>Estándar Neumático Metal Work</h3>
+            <p>
+              Trabajamos con componentes reconocidos internacionalmente por su precisión mecánica, intercambiabilidad normativa y fiabilidad en servicio continuo.
+            </p>
+          </div>
+
+          <div class="pillar-box">
+            <span class="pillar-number">03</span>
+            <h3>Atención Ágil en Santa Cruz y Bolivia</h3>
+            <p>
+              Coordinación rápida de cotizaciones y envíos seguros hacia plantas manufactureras, agroindustriales, mineras y de servicios en todo el país.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COBERTURA, UBICACIÓN Y ASISTENTE DE COTIZACIÓN -->
+    <section id="cobertura" aria-labelledby="cobertura-heading">
+      <div class="container contact-grid">
+
+        <!-- Panel Corporativo de Ubicación y Cobertura -->
+        <div class="info-panel">
+          <h2 id="cobertura-heading">Ubicación, Horarios y Cobertura Nacional</h2>
+          <p>
+            Operamos desde Santa Cruz de la Sierra con logística de despacho y asesoría técnica para empresas e industrias en toda Bolivia.
+          </p>
+
+          <ul class="info-list">
+            <li>
+              <span class="info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Sede y Cobertura</strong>
+                <span>Santa Cruz de la Sierra, Bolivia — Envíos y soporte para toda Bolivia</span>
+              </div>
+            </li>
+
+            <li>
+              <span class="info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Horario de Atención Comercial</strong>
+                <span>Lunes a Viernes: 08:00 a 18:00 | Sábados: 08:30 a 12:30</span>
+              </div>
+            </li>
+
+            <li>
+              <span class="info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Línea Directa y WhatsApp</strong>
+                <a href="tel:+59169581903">+591 69581903</a>
+              </div>
+            </li>
+          </ul>
+
+          <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL,%20me%20comunico%20desde%20su%20sitio%20web%20para%20coordinar%20una%20consulta%20t%C3%A9cnica."
+             class="btn btn-whatsapp"
+             target="_blank"
+             rel="noopener noreferrer"
+             style="width: 100%;">
+            Iniciar Conversación por WhatsApp
+          </a>
+        </div>
+
+        <!-- Asistente de Solicitud Técnica Directa -->
+        <div class="quote-builder" id="contacto">
+          <h3>Generar Solicitud de Cotización</h3>
+          <p>
+            Seleccione el requerimiento de su planta y su departamento en Bolivia para enviar una consulta estructurada directamente a nuestro equipo técnico.
+          </p>
+
+          <form id="quote-form">
+            <div class="form-group">
+              <label for="empresa-nombre">Nombre o Empresa</label>
+              <input type="text" id="empresa-nombre" class="form-control" placeholder="Ej. Ing. Carlos Méndez / Industria Alimenticia" required maxlength="100">
+            </div>
+
+            <div class="form-group">
+              <label for="linea-interes">Línea de Producto o Servicio</label>
+              <select id="linea-interes" class="form-control" required>
+                <option value="Cilindros neumáticos Serie 3 y Serie RHV (Metal Work)">Cilindros neumáticos Serie 3 y Serie RHV (Metal Work)</option>
+                <option value="Electroválvulas Serie 70 y Serie Namur (Metal Work)">Electroválvulas Serie 70 y Serie Namur (Metal Work)</option>
+                <option value="Válvulas solenoide">Válvulas solenoide</option>
+                <option value="Racores de conexión rápida">Racores de conexión rápida</option>
+                <option value="Tuberías de poliuretano">Tuberías de poliuretano</option>
+                <option value="Servicios industriales y asesoría técnica">Servicios industriales y asesoría técnica</option>
+                <option value="Requerimiento integral de automatización">Requerimiento integral de automatización</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="departamento-bolivia">Ciudad / Departamento de Entrega</label>
+              <select id="departamento-bolivia" class="form-control" required>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="La Paz">La Paz</option>
+                <option value="Cochabamba">Cochabamba</option>
+                <option value="Tarija">Tarija</option>
+                <option value="Chuquisaca">Chuquisaca</option>
+                <option value="Oruro">Oruro</option>
+                <option value="Potosí">Potosí</option>
+                <option value="Beni">Beni</option>
+                <option value="Pando">Pando</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="detalle-tecnico">Especificaciones o Cantidad (Opcional)</label>
+              <textarea id="detalle-tecnico" class="form-control" placeholder="Ej. Diámetro, carrera, voltaje de bobina, diámetro de tubería o aplicación industrial..." maxlength="400"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              Enviar Solicitud a WhatsApp
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">Kedem Control SRL</p>
+          <p style="font-size: 0.92rem; line-height: 1.6;">
+            Automatización industrial, asesoría técnica y comercialización de productos neumáticos Metal Work desde Santa Cruz para toda Bolivia.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Líneas Principales</h3>
+          <ul class="footer-links">
+            <li><a href="#servicios">Cilindros Serie 3 y Serie RHV</a></li>
+            <li><a href="#servicios">Electroválvulas Serie 70 y Namur</a></li>
+            <li><a href="#servicios">Válvulas Solenoide</a></li>
+            <li><a href="#servicios">Racores y Tuberías de Poliuretano</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Contacto Directo</h3>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/59169581903" target="_blank" rel="noopener noreferrer">WhatsApp: +591 69581903</a></li>
+            <li><a href="tel:+59169581903">Teléfono: +591 69581903</a></li>
+            <li><span>Santa Cruz, Bolivia</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Kedem Control SRL. Todos los derechos reservados.</p>
+        <p>Automatización Industrial &amp; Neumática Metal Work • Bolivia</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Año actual seguro mediante textContent
+      const yearEl = document.getElementById('current-year');
+      if (yearEl) {
+        yearEl.textContent = String(new Date().getFullYear());
+      }
+
+      // 2. Navegación móvil accesible (aria-expanded)
+      const menuToggle = document.getElementById('menu-toggle');
+      const navMenu = document.getElementById('nav-menu');
+
+      if (menuToggle && navMenu) {
+        menuToggle.addEventListener('click', () => {
+          const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+          menuToggle.setAttribute('aria-expanded', String(!isOpen));
+          menuToggle.setAttribute('aria-label', isOpen ? 'Abrir menú de navegación' : 'Cerrar menú de navegación');
+          navMenu.classList.toggle('is-open', !isOpen);
+        });
+
+        navMenu.addEventListener('click', (event) => {
+          if (event.target.closest('a')) {
+            menuToggle.setAttribute('aria-expanded', 'false');
+            menuToggle.setAttribute('aria-label', 'Abrir menú de navegación');
+            navMenu.classList.remove('is-open');
+          }
+        });
+      }
+
+      // 3. Filtrado de catálogo por especialidad (Delegación de eventos & sin innerHTML)
+      const filterBar = document.querySelector('.filter-bar');
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.card-container');
+      const filterStatus = document.getElementById('filter-status');
+
+      if (filterBar) {
+        filterBar.addEventListener('click', (event) => {
+          const btn = event.target.closest('.filter-btn');
+          if (!btn) return;
+
+          const selectedFilter = btn.dataset.filter;
+
+          filterButtons.forEach((button) => {
+            button.setAttribute('aria-pressed', button === btn ? 'true' : 'false');
+          });
+
+          let visibleCount = 0;
+          cards.forEach((card) => {
+            const matches = selectedFilter === 'todos' || card.dataset.category === selectedFilter;
+            card.hidden = !matches;
+            if (matches) visibleCount += 1;
+          });
+
+          if (filterStatus) {
+            filterStatus.textContent = `Mostrando ${visibleCount} opciones del catálogo técnico.`;
+          }
+        });
+      }
+
+      // 4. Constructor seguro de solicitud de cotización hacia WhatsApp (Prevención OWASP XSS)
+      const quoteForm = document.getElementById('quote-form');
+      if (quoteForm) {
+        quoteForm.addEventListener('submit', (event) => {
+          event.preventDefault();
+
+          const nombre = document.getElementById('empresa-nombre').value.trim();
+          const linea = document.getElementById('linea-interes').value.trim();
+          const ciudad = document.getElementById('departamento-bolivia').value.trim();
+          const detalle = document.getElementById('detalle-tecnico').value.trim();
+
+          if (!nombre) return;
+
+          const lines = [
+            'Hola Kedem Control SRL, solicito información y cotización:',
+            '',
+            `*Cliente / Empresa:* ${nombre}`,
+            `*Línea de interés:* ${linea}`,
+            `*Destino en Bolivia:* ${ciudad}`
+          ];
+
+          if (detalle) {
+            lines.push(`*Especificaciones:* ${detalle}`);
+          }
+
+          const message = lines.join('\n');
+          const targetUrl = `https://wa.me/59169581903?text=${encodeURIComponent(message)}`;
+
+          if (targetUrl.startsWith('https://wa.me/')) {
+            window.open(targetUrl, '_blank', 'noopener,noreferrer');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
