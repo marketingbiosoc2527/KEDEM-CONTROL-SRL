@@ -1,0 +1,1956 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kedem Control SRL | Automatización Industrial y Neumática en Bolivia</title>
+  <meta name="description" content="Venta y cotización de productos neumáticos industriales en Santa Cruz con envíos a toda Bolivia: Cilindros Serie 3 y RHV, válvulas Serie 70, NAMUR, solenoides, racores, tubería PU y sensores.">
+  <meta name="theme-color" content="#0f172a">
+
+  <!-- DATOS ESTRUCTURADOS SEO (SCHEMA.ORG JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Kedem Control SRL",
+    "description": "Especialistas en automatización industrial y venta de componentes neumáticos en Santa Cruz con envíos a todo Bolivia.",
+    "telephone": "+59169581903",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Cruz de la Sierra",
+      "addressCountry": "BO"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Bolivia"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Catálogo de Neumática Industrial",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cilindro Neumático Serie 3" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cilindro Neumático Serie RHV" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Válvula Neumática Serie 70" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Válvula Neumática NAMUR" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Válvula Solenoide Industrial" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Racores de Conexión Rápida" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Tubería de Poliuretano (PU)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Sensores Industriales" } }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       1. RESET Y TOKENS DE DISEÑO (WCAG 2.1 AA CONTRAST & ESCALA FLUIDA)
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      /* Paleta Ingeniería Industrial de Alto Contraste */
+      --primary: #1d4ed8;
+      --primary-dark: #1e3a8a;
+      --primary-soft: #eff6ff;
+      --accent: #047857;
+      --accent-hover: #065f46;
+      --accent-soft: #ecfdf5;
+      --hero-bg: #0f172a;
+      --hero-surface: #1e293b;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --text-muted: #475569;
+      --text-inverse: #f8fafc;
+      --border: #cbd5e1;
+      --border-light: #e2e8f0;
+      --danger: #b91c1c;
+
+      /* Escala Tipográfica y Espaciado Fluido (clamp) */
+      --font-h1: clamp(1.85rem, 1.8vw + 1.4rem, 3.15rem);
+      --font-h2: clamp(1.45rem, 1.2vw + 1.15rem, 2.25rem);
+      --font-h3: clamp(1.125rem, 0.5vw + 1rem, 1.35rem);
+      --font-body: clamp(1rem, 0.25vw + 0.95rem, 1.125rem);
+      --space-section: clamp(2.75rem, 4.5vw + 1.5rem, 5rem);
+      --gutter: clamp(1rem, 2vw + 0.5rem, 2rem);
+
+      /* Elevación y Transiciones */
+      --radius-sm: 0.5rem;
+      --radius-md: 0.75rem;
+      --radius-lg: 1rem;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+      --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -2px rgba(15, 23, 42, 0.05);
+      --shadow-lg: 0 14px 24px -4px rgba(15, 23, 42, 0.12), 0 4px 10px -2px rgba(15, 23, 42, 0.06);
+      --transition: 180ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      font-size: var(--font-body);
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+    }
+
+    h1 { font-size: var(--font-h1); }
+    h2 { font-size: var(--font-h2); }
+    h3 { font-size: var(--font-h3); }
+
+    .container {
+      width: min(100% - (var(--gutter) * 2), 1240px);
+      margin-inline: auto;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* ==========================================================================
+       2. CONTROLES INTERACTIVOS Y ACCESIBILIDAD (WCAG 2.2 AA >= 44x44px)
+       ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      min-height: 48px;
+      min-width: 48px;
+      padding-block: 0.65rem;
+      padding-inline: 1.25rem;
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 0.975rem;
+      font-weight: 600;
+      line-height: 1.2;
+      text-decoration: none;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: transform var(--transition), background-color var(--transition), border-color var(--transition), box-shadow var(--transition);
+    }
+
+    .btn:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible {
+      outline: 3px solid #f59e0b;
+      outline-offset: 2px;
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: #ffffff;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-accent {
+      background-color: var(--accent);
+      color: #ffffff;
+    }
+
+    .btn-accent:hover {
+      background-color: var(--accent-hover);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-outline-light {
+      background-color: transparent;
+      color: #ffffff;
+      border-color: rgba(248, 250, 252, 0.35);
+    }
+
+    .btn-outline-light:hover {
+      background-color: rgba(248, 250, 252, 0.1);
+      border-color: #ffffff;
+    }
+
+    .btn-ghost {
+      background-color: var(--surface);
+      color: var(--text);
+      border-color: var(--border);
+    }
+
+    .btn-ghost:hover {
+      background-color: var(--bg);
+      border-color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       3. CABECERA STICKY Y BARRA DE NAVEGACIÓN
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 900;
+      background-color: rgba(15, 23, 42, 0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-inverse);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-block: 0.75rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--text-inverse);
+      min-height: 44px;
+    }
+
+    .brand-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: 0.02em;
+      line-height: 1.15;
+    }
+
+    .brand-sub {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      font-weight: 500;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .shipping-pill {
+      display: none;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #cbd5e1;
+      background-color: rgba(255, 255, 255, 0.08);
+      padding: 0.4rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    @media (min-width: 768px) {
+      .shipping-pill {
+        display: inline-flex;
+      }
+    }
+
+    .cart-trigger {
+      position: relative;
+      background-color: var(--accent);
+      color: #ffffff;
+      border: none;
+      padding-inline: 1rem;
+    }
+
+    .cart-trigger:hover {
+      background-color: var(--accent-hover);
+    }
+
+    .cart-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 24px;
+      height: 24px;
+      padding-inline: 0.4rem;
+      border-radius: 999px;
+      background-color: #ffffff;
+      color: var(--accent-hover);
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+
+    /* ==========================================================================
+       4. HERO SECTION (REGLA DE LOS 3 SEGUNDOS & LCP OPTIMIZADO)
+       ========================================================================== */
+    .hero {
+      background: radial-gradient(circle at 85% 20%, rgba(37, 99, 235, 0.22), transparent 50%),
+                  linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+      color: var(--text-inverse);
+      padding-block: clamp(2.5rem, 5vw + 1.5rem, 4.75rem);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(2rem, 4vw, 3.5rem);
+      align-items: center;
+    }
+
+    @media (min-width: 920px) {
+      .hero-grid {
+        grid-template-columns: 1.25fr 0.95fr;
+      }
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: rgba(56, 189, 248, 0.14);
+      color: #7dd3fc;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-block-end: 1.15rem;
+    }
+
+    .hero h1 {
+      color: #ffffff;
+      margin-block-end: 1.15rem;
+    }
+
+    .hero-lead {
+      color: #cbd5e1;
+      font-size: clamp(1.05rem, 0.4vw + 0.98rem, 1.2rem);
+      max-width: 60ch;
+      margin-block-end: 1.75rem;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-block-end: 1.75rem;
+    }
+
+    .hero-specs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      padding-block-start: 1.25rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
+
+    .hero-spec-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+
+    .hero-visual {
+      background-color: rgba(15, 23, 42, 0.65);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-visual svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ==========================================================================
+       5. BARRA DE CONFIANZA Y LOGÍSTICA NACIONAL
+       ========================================================================== */
+    .trust-bar {
+      background-color: var(--surface);
+      border-bottom: 1px solid var(--border-light);
+      padding-block: 1.5rem;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+      gap: 1.25rem;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+    }
+
+    .trust-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-sm);
+      background-color: var(--primary-soft);
+      color: var(--primary);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .trust-title {
+      font-weight: 700;
+      font-size: 0.98rem;
+      color: var(--text);
+      margin-block-end: 0.15rem;
+    }
+
+    .trust-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* ==========================================================================
+       6. CATÁLOGO INTERACTIVO CON CONTAINER QUERIES Y FILTROS
+       ========================================================================== */
+    .catalog-section {
+      padding-block: var(--space-section);
+    }
+
+    .section-header {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-block-end: 2rem;
+    }
+
+    .section-kicker {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--primary);
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      max-width: 65ch;
+    }
+
+    /* Controles de Búsqueda y Filtrado */
+    .catalog-controls {
+      background-color: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 1.15rem;
+      margin-block-end: 2rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .search-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .search-icon {
+      position: absolute;
+      inset-inline-start: 0.95rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .search-input {
+      width: 100%;
+      min-height: 48px;
+      padding-inline-start: 2.75rem;
+      padding-inline-end: 1rem;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 1rem;
+      color: var(--text);
+      background-color: var(--bg);
+      transition: border-color var(--transition), background-color var(--transition);
+    }
+
+    .search-input:hover,
+    .search-input:focus {
+      background-color: var(--surface);
+      border-color: var(--primary);
+    }
+
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .filter-btn {
+      min-height: 44px;
+      padding-inline: 1rem;
+      padding-block: 0.5rem;
+      border-radius: 999px;
+      border: 1.5px solid var(--border);
+      background-color: var(--surface);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .filter-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .filter-btn[aria-pressed="true"] {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    .results-meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-block-end: 1.25rem;
+    }
+
+    /* Grilla Intrínseca de Productos */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 295px), 1fr));
+      gap: var(--gutter);
+    }
+
+    .card-container {
+      container-type: inline-size;
+      container-name: product-card;
+    }
+
+    .product-card {
+      height: 100%;
+      background-color: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    }
+
+    .product-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-lg);
+      border-color: #93c5fd;
+    }
+
+    .product-media {
+      background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+      border-bottom: 1px solid var(--border-light);
+      aspect-ratio: 16 / 9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      position: relative;
+    }
+
+    .product-media svg {
+      width: 100%;
+      max-width: 190px;
+      height: auto;
+    }
+
+    .product-category-tag {
+      position: absolute;
+      top: 0.75rem;
+      inset-inline-start: 0.75rem;
+      background-color: rgba(15, 23, 42, 0.88);
+      color: #ffffff;
+      font-size: 0.74rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      border-radius: 0.35rem;
+      letter-spacing: 0.02em;
+    }
+
+    .product-body {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    @container product-card (min-width: 520px) {
+      .product-card {
+        flex-direction: row;
+      }
+      .product-media {
+        width: 40%;
+        aspect-ratio: auto;
+        border-bottom: none;
+        border-inline-end: 1px solid var(--border-light);
+      }
+      .product-body {
+        width: 60%;
+      }
+    }
+
+    .product-title {
+      font-size: 1.15rem;
+      color: var(--text);
+      margin-block-end: 0.45rem;
+    }
+
+    .product-desc {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-block-end: 0.85rem;
+    }
+
+    .spec-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .spec-tag {
+      font-size: 0.78rem;
+      font-weight: 600;
+      background-color: var(--bg);
+      color: #334155;
+      border: 1px solid var(--border-light);
+      padding: 0.2rem 0.55rem;
+      border-radius: 0.3rem;
+    }
+
+    .product-footer {
+      border-top: 1px solid var(--border-light);
+      padding-block-start: 0.95rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .quote-status-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .add-quote-btn {
+      width: 100%;
+    }
+
+    .add-quote-btn.added-feedback {
+      background-color: #0f172a;
+    }
+
+    .empty-catalog {
+      background-color: var(--surface);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius-md);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      grid-column: 1 / -1;
+    }
+
+    /* ==========================================================================
+       7. SECCIÓN COBERTURA Y CONTACTO DIRECTO (SANTA CRUZ -> TODA BOLIVIA)
+       ========================================================================== */
+    .coverage-section {
+      background-color: var(--surface);
+      border-top: 1px solid var(--border-light);
+      padding-block: var(--space-section);
+    }
+
+    .coverage-card {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: var(--text-inverse);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.75rem, 4vw, 3rem);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    @media (min-width: 860px) {
+      .coverage-card {
+        grid-template-columns: 1.4fr 1fr;
+      }
+    }
+
+    .coverage-card h2 {
+      color: #ffffff;
+      margin-block-end: 0.75rem;
+    }
+
+    .coverage-card p {
+      color: #cbd5e1;
+      margin-block-end: 1.25rem;
+    }
+
+    .departments-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .dept-badge {
+      font-size: 0.8rem;
+      font-weight: 600;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #e2e8f0;
+      padding: 0.3rem 0.65rem;
+      border-radius: 0.35rem;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .contact-box {
+      background-color: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    /* ==========================================================================
+       8. SLIDE-OVER DRAWER DE COTIZACIÓN POR WHATSAPP
+       ========================================================================== */
+    .cart-backdrop {
+      position: fixed;
+      inset: 0;
+      background-color: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(2px);
+      z-index: 990;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 220ms ease, visibility 220ms ease;
+    }
+
+    .cart-backdrop.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .cart-drawer {
+      position: fixed;
+      inset-block: 0;
+      inset-inline-end: 0;
+      width: min(100%, 450px);
+      background-color: var(--surface);
+      box-shadow: -8px 0 30px rgba(15, 23, 42, 0.22);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .cart-drawer.active {
+      transform: translateX(0);
+    }
+
+    .drawer-header {
+      padding: 1.15rem 1.25rem;
+      background-color: var(--hero-bg);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .drawer-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .drawer-close {
+      background-color: rgba(255, 255, 255, 0.12);
+      color: #ffffff;
+      border: none;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+    }
+
+    .drawer-close:hover {
+      background-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .drawer-body {
+      flex-grow: 1;
+      overflow-y: auto;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .cart-empty-state {
+      text-align: center;
+      padding-block: 3rem 2rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .cart-item {
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      padding: 0.9rem;
+      background-color: var(--bg);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .cart-item-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .cart-item-name {
+      font-weight: 700;
+      font-size: 0.98rem;
+      color: var(--text);
+    }
+
+    .cart-item-cat {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .remove-item-btn {
+      min-width: 44px;
+      min-height: 44px;
+      border: 1px solid var(--border-light);
+      background-color: var(--surface);
+      color: var(--danger);
+      border-radius: 0.4rem;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .remove-item-btn:hover {
+      background-color: #fef2f2;
+      border-color: #fecaca;
+    }
+
+    .qty-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .qty-stepper {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--border);
+      border-radius: 0.4rem;
+      background-color: var(--surface);
+      overflow: hidden;
+    }
+
+    .qty-btn {
+      min-width: 44px;
+      min-height: 44px;
+      border: none;
+      background-color: transparent;
+      color: var(--text);
+      font-size: 1.2rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+    }
+
+    .qty-btn:hover {
+      background-color: var(--bg);
+    }
+
+    .qty-value {
+      min-width: 2.5rem;
+      text-align: center;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .quote-extra-fields {
+      border-top: 1px solid var(--border-light);
+      padding-block-start: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .field-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .field-control {
+      min-height: 44px;
+      padding: 0.55rem 0.75rem;
+      border: 1.5px solid var(--border);
+      border-radius: 0.4rem;
+      font-family: inherit;
+      font-size: 0.92rem;
+      color: var(--text);
+      background-color: var(--surface);
+    }
+
+    .drawer-footer {
+      border-top: 1px solid var(--border);
+      padding: 1.15rem 1.25rem;
+      background-color: var(--bg);
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .drawer-actions-row {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.6rem;
+    }
+
+    /* ==========================================================================
+       9. FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: #090d16;
+      color: #94a3b8;
+      padding-block: 2rem;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CABECERA STICKY -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Kedem Control SRL - Inicio">
+        <span class="brand-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="12" height="10" rx="2"/>
+            <line x1="14" y1="12" x2="22" y2="12"/>
+            <line x1="22" y1="9" x2="22" y2="15"/>
+            <line x1="6" y1="7" x2="6" y2="4"/>
+            <line x1="10" y1="7" x2="10" y2="4"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">KEDEM CONTROL SRL</span>
+          <span class="brand-sub">Automatización Industrial</span>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <span class="shipping-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          Santa Cruz • Envíos a toda Bolivia
+        </span>
+
+        <button type="button" id="open-cart-btn" class="btn cart-trigger" aria-expanded="false" aria-controls="quote-drawer" aria-label="Abrir lista de cotización">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+            <rect x="9" y="3" width="6" height="4" rx="1"/>
+            <line x1="9" y1="12" x2="15" y2="12"/>
+            <line x1="9" y1="16" x2="13" y2="16"/>
+          </svg>
+          <span>Mi Cotización</span>
+          <span id="cart-count-badge" class="cart-badge" aria-live="polite">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- SECCIÓN HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-eyebrow">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Suministro Neumático Industrial • Bolivia
+          </span>
+          <h1>Componentes Neumáticos de Alta Confiabilidad para la Industria</h1>
+          <p class="hero-lead">
+            En <strong>Kedem Control SRL</strong> proveemos cilindros Serie 3 y RHV, válvulas Serie 70, NAMUR, electroválvulas solenoides, racores rápidos, tubería PU y sensores. Selecciona los componentes que tu planta necesita y solicita tu cotización formal por WhatsApp.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#catalogo" class="btn btn-primary">
+              Explorar Catálogo
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL%2C%20necesito%20asesor%C3%ADa%20t%C3%A9cnica%20y%20cotizaci%C3%B3n%20de%20productos%20neum%C3%A1ticos." target="_blank" rel="noopener noreferrer" class="btn btn-accent">
+              Consultar por WhatsApp
+            </a>
+          </div>
+          <div class="hero-specs">
+            <span class="hero-spec-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              Respuesta rápida a requerimientos
+            </span>
+            <span class="hero-spec-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" aria-hidden="true">
+                <rect x="1" y="3" width="15" height="13"/>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                <circle cx="5.5" cy="18.5" r="2.5"/>
+                <circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+              Despachos desde Santa Cruz a todo el país
+            </span>
+          </div>
+        </div>
+
+        <!-- ESQUEMA TÉCNICO VECTORIAL INLINE (LCP INMEDIATO SIN DEPENDENCIAS) -->
+        <div class="hero-visual" aria-label="Diagrama esquemático de circuito neumático industrial">
+          <svg width="460" height="300" viewBox="0 0 460 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-svg-title">
+            <title id="hero-svg-title">Circuito de automatización neumática industrial Kedem Control SRL</title>
+            <!-- Cuadrícula técnica de fondo -->
+            <rect x="4" y="4" width="452" height="292" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+            <g stroke="#1e293b" stroke-width="1">
+              <line x1="40" y1="20" x2="40" y2="280"/>
+              <line x1="120" y1="20" x2="120" y2="280"/>
+              <line x1="200" y1="20" x2="200" y2="280"/>
+              <line x1="280" y1="20" x2="280" y2="280"/>
+              <line x1="360" y1="20" x2="360" y2="280"/>
+              <line x1="20" y1="75" x2="440" y2="75"/>
+              <line x1="20" y1="150" x2="440" y2="150"/>
+              <line x1="20" y1="225" x2="440" y2="225"/>
+            </g>
+
+            <!-- Cilindro Neumático Principal -->
+            <rect x="55" y="48" width="210" height="58" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5"/>
+            <rect x="72" y="48" width="16" height="58" fill="#0284c7" opacity="0.45"/>
+            <rect x="232" y="48" width="16" height="58" fill="#0284c7" opacity="0.45"/>
+            <!-- Émbolo interno -->
+            <rect x="135" y="52" width="18" height="50" rx="2" fill="#38bdf8"/>
+            <!-- Vástago -->
+            <rect x="153" y="70" width="225" height="14" rx="2" fill="#e2e8f0"/>
+            <rect x="378" y="64" width="22" height="26" rx="3" fill="#38bdf8"/>
+
+            <!-- Sensor Magnético sobre el cilindro -->
+            <rect x="128" y="34" width="32" height="12" rx="3" fill="#10b981"/>
+            <circle cx="144" cy="40" r="2.5" fill="#ffffff"/>
+            <path d="M144 34 V22 H390 V165" stroke="#10b981" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+            <!-- Tuberías PU de alimentación -->
+            <path d="M80 106 V178 H145" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+            <path d="M240 106 V178 H215" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+
+            <!-- Racores de conexión rápida -->
+            <rect x="74" y="106" width="12" height="10" rx="2" fill="#f59e0b"/>
+            <rect x="234" y="106" width="12" height="10" rx="2" fill="#f59e0b"/>
+
+            <!-- Válvula Solenoide 5/2 -->
+            <rect x="125" y="165" width="110" height="48" rx="6" fill="#1e293b" stroke="#60a5fa" stroke-width="2"/>
+            <rect x="93" y="173" width="32" height="32" rx="4" fill="#2563eb" stroke="#93c5fd" stroke-width="1.5"/>
+            <rect x="235" y="173" width="32" height="32" rx="4" fill="#2563eb" stroke="#93c5fd" stroke-width="1.5"/>
+            <line x1="180" y1="165" x2="180" y2="213" stroke="#60a5fa" stroke-width="1.5"/>
+            <path d="M145 203 L165 175 M165 203 L145 175" stroke="#38bdf8" stroke-width="1.5"/>
+            <path d="M195 203 V175 M215 175 V203" stroke="#38bdf8" stroke-width="1.5"/>
+
+            <!-- Etiquetas técnicas -->
+            <text x="56" y="252" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">CILINDRO SERIE 3 / RHV</text>
+            <text x="275" y="252" fill="#10b981" font-family="system-ui, sans-serif" font-size="11" font-weight="600">CONTROL SOLENOIDE + SENSOR</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- BARRA DE CONFIANZA Y PROPUESTA DE VALOR -->
+    <section class="trust-bar" aria-label="Ventajas operativas">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="trust-title">Especialistas en Neumática</h2>
+            <p class="trust-desc">Componentes compatibles con estándares industriales ISO/NAMUR para mantenimiento y nuevos proyectos.</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="trust-title">Cotización Multi-Ítem Directa</h2>
+            <p class="trust-desc">Agrega varios productos y cantidades a tu lista y envía el pedido estructurado directo a nuestro WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="trust-title">Envíos a Toda Bolivia</h2>
+            <p class="trust-desc">Base operativa en Santa Cruz con despacho terrestre y aéreo hacia los 9 departamentos del país.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO INTERACTIVO -->
+    <section id="catalogo" class="catalog-section" aria-labelledby="catalog-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Catálogo Industrial</span>
+          <h2 id="catalog-heading">Línea de Productos Neumáticos</h2>
+          <p class="section-subtitle">
+            Filtra por categoría o busca por serie técnica. Añade los artículos requeridos a tu lista de cotización para confirmar disponibilidad inmediata y presupuesto.
+          </p>
+        </div>
+
+        <!-- Buscador y Filtros -->
+        <div class="catalog-controls">
+          <div class="search-wrapper">
+            <label for="search-input" class="sr-only">Buscar producto neumático</label>
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <input
+              type="search"
+              id="search-input"
+              class="search-input"
+              placeholder="Buscar por nombre o serie (ej. Serie 3, NAMUR, solenoide, racores, PU)..."
+              autocomplete="off"
+            >
+          </div>
+
+          <div id="filter-bar" class="filter-bar" role="group" aria-label="Filtrar catálogo por categoría">
+            <button type="button" class="filter-btn" data-category="Todos" aria-pressed="true">Todos</button>
+            <button type="button" class="filter-btn" data-category="Cilindros" aria-pressed="false">Cilindros</button>
+            <button type="button" class="filter-btn" data-category="Válvulas" aria-pressed="false">Válvulas</button>
+            <button type="button" class="filter-btn" data-category="Conexiones y Tubería" aria-pressed="false">Conexiones y Tubería</button>
+            <button type="button" class="filter-btn" data-category="Sensores" aria-pressed="false">Sensores</button>
+          </div>
+        </div>
+
+        <p id="results-meta" class="results-meta" aria-live="polite">Mostrando 8 productos disponibles para cotización</p>
+
+        <!-- Grilla de Productos Renderizada de Forma Segura -->
+        <div id="product-grid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN DE COBERTURA NACIONAL Y ATENCIÓN TÉCNICA -->
+    <section class="coverage-section" aria-labelledby="coverage-heading">
+      <div class="container">
+        <div class="coverage-card">
+          <div>
+            <h2 id="coverage-heading">Desde Santa Cruz para toda Bolivia</h2>
+            <p>
+              Atendemos requerimientos de plantas industriales, agroindustria, minería, manufactura y talleres de mantenimiento en todo el territorio boliviano. Envíanos tu lista de materiales o especificaciones de reemplazo.
+            </p>
+            <div class="departments-list" aria-label="Departamentos con cobertura de envío">
+              <span class="dept-badge">Santa Cruz</span>
+              <span class="dept-badge">La Paz</span>
+              <span class="dept-badge">Cochabamba</span>
+              <span class="dept-badge">Tarija</span>
+              <span class="dept-badge">Chuquisaca</span>
+              <span class="dept-badge">Oruro</span>
+              <span class="dept-badge">Potosí</span>
+              <span class="dept-badge">Beni</span>
+              <span class="dept-badge">Pando</span>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <h3>¿Necesitas una cotización urgente o medidas especiales?</h3>
+            <p style="margin-block-end: 0; font-size: 0.95rem;">
+              Nuestro equipo técnico te asesora en diámetros de émbolo, carreras, roscas BSP/NPT y voltajes de bobina.
+            </p>
+            <a href="https://wa.me/59169581903?text=Hola%20Kedem%20Control%20SRL%2C%20quisiera%20solicitar%20una%20cotizaci%C3%B3n%20t%C3%A9cnica." target="_blank" rel="noopener noreferrer" class="btn btn-accent">
+              Escribir al +591 69581903
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- BACKDROP Y PANEL DESPLEGABLE DE COTIZACIÓN (SLIDE-OVER DRAWER) -->
+  <div id="cart-backdrop" class="cart-backdrop" aria-hidden="true"></div>
+
+  <aside id="quote-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-heading" hidden>
+    <div class="drawer-header">
+      <h2 id="drawer-heading" class="drawer-title">Lista de Cotización</h2>
+      <button type="button" id="close-cart-btn" class="drawer-close" aria-label="Cerrar panel de cotización">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <div id="cart-items-container"></div>
+
+      <div id="quote-extra-section" class="quote-extra-fields" hidden>
+        <div class="field-group">
+          <label for="destination-select" class="field-label">Ciudad / Departamento de envío en Bolivia</label>
+          <select id="destination-select" class="field-control">
+            <option value="Santa Cruz">Santa Cruz (Entrega local)</option>
+            <option value="La Paz / El Alto">La Paz / El Alto</option>
+            <option value="Cochabamba">Cochabamba</option>
+            <option value="Tarija">Tarija</option>
+            <option value="Sucre (Chuquisaca)">Sucre (Chuquisaca)</option>
+            <option value="Oruro">Oruro</option>
+            <option value="Potosí">Potosí</option>
+            <option value="Trinidad (Beni)">Trinidad (Beni)</option>
+            <option value="Cobija (Pando)">Cobija (Pando)</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="tech-notes-input" class="field-label">Especificaciones técnicas (opcional)</label>
+          <input
+            type="text"
+            id="tech-notes-input"
+            class="field-control"
+            placeholder="Ej. Diámetro, carrera, voltaje 24VDC/220VAC, medida..."
+            maxlength="180"
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="drawer-footer">
+      <div class="summary-row">
+        <span>Total de unidades a cotizar:</span>
+        <span id="drawer-total-units">0 unid.</span>
+      </div>
+      <div class="drawer-actions-row">
+        <button type="button" id="clear-cart-btn" class="btn btn-ghost" aria-label="Vaciar lista de cotización">
+          Vaciar
+        </button>
+        <button type="button" id="send-whatsapp-btn" class="btn btn-accent">
+          Solicitar Cotización por WhatsApp
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong style="color: #f8fafc;">Kedem Control SRL</strong> — Automatización Industrial y Neumática
+      </div>
+      <div>
+        Santa Cruz, Bolivia • Envíos Nacionales • WhatsApp: +591 69581903
+      </div>
+    </div>
+  </footer>
+
+  <!-- LÓGICA VANILLA JS SEGURA CONTRA DOM-XSS (SIN INNERHTML) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const WHATSAPP_NUMBER = '59169581903';
+      const STORAGE_KEY = 'kedem_control_quote_v1';
+
+      // Catálogo técnico basado estrictamente en los productos proporcionados
+      const PRODUCTS = [
+        {
+          id: 'cilindro-serie-3',
+          name: 'Cilindro Neumático Serie 3',
+          category: 'Cilindros',
+          iconType: 'cylinder-std',
+          description: 'Actuador neumático lineal estándar de doble efecto con amortiguación regulable, camisa de aluminio anodizado y émbolo magnético integrado.',
+          specs: ['Doble efecto', 'Émbolo magnético', 'Amortiguación regulable']
+        },
+        {
+          id: 'cilindro-serie-rhv',
+          name: 'Cilindro Neumático Serie RHV',
+          category: 'Cilindros',
+          iconType: 'cylinder-rhv',
+          description: 'Cilindro neumático de alta resistencia mecánica diseñado para trabajo industrial pesado, ciclos continuos y montaje rígido.',
+          specs: ['Servicio pesado', 'Alta durabilidad', 'Vástago reforzado']
+        },
+        {
+          id: 'valvula-serie-70',
+          name: 'Válvula Neumática Serie 70',
+          category: 'Válvulas',
+          iconType: 'valve-70',
+          description: 'Válvula direccional de alto caudal para control de actuadores, disponible en versiones manuales, mecánicas y pilotadas.',
+          specs: ['Configuración 3/2 y 5/2', 'Alto caudal', 'Respuesta precisa']
+        },
+        {
+          id: 'valvula-namur',
+          name: 'Válvula Neumática NAMUR',
+          category: 'Válvulas',
+          iconType: 'valve-namur',
+          description: 'Válvula de interfaz estándar NAMUR para montaje directo sobre actuadores neumáticos rotativos en líneas de proceso.',
+          specs: ['Montaje directo NAMUR', 'Sellado industrial', 'Uso en procesos']
+        },
+        {
+          id: 'valvula-solenoide',
+          name: 'Válvula Solenoide Industrial',
+          category: 'Válvulas',
+          iconType: 'solenoid',
+          description: 'Electroválvula de conmutación rápida con accionamiento manual auxiliar y bobinas intercambiables para tableros de automatización.',
+          specs: ['24VDC / 110VAC / 220VAC', 'Accionamiento manual', 'Conector DIN']
+        },
+        {
+          id: 'racores-rapidos',
+          name: 'Racores de Conexión Rápida',
+          category: 'Conexiones y Tubería',
+          iconType: 'fittings',
+          description: 'Conectores neumáticos push-in herméticos en formatos rectos, codos 90°, derivaciones T y reguladores de caudal.',
+          specs: ['Conexión push-in', 'Roscas BSP / NPT', 'Sellado sin fugas']
+        },
+        {
+          id: 'tuberia-poliuretano',
+          name: 'Tubería de Poliuretano (PU)',
+          category: 'Conexiones y Tubería',
+          iconType: 'tubing',
+          description: 'Manguera neumática calibrada de poliuretano flexible de alta resistencia a la abrasión y presión constante de trabajo.',
+          specs: ['Alta flexibilidad', 'Calibración precisa', 'Variedad de diámetros']
+        },
+        {
+          id: 'sensores-industriales',
+          name: 'Sensores Industriales',
+          category: 'Sensores',
+          iconType: 'sensors',
+          description: 'Sensores magnéticos para detección de posición en cilindros neumáticos con indicador LED y sensores para automatización.',
+          specs: ['Indicador LED', 'Montaje en ranura', 'Alta repetibilidad']
+        }
+      ];
+
+      // Estado de la aplicación
+      let state = {
+        activeCategory: 'Todos',
+        searchQuery: '',
+        cart: loadCartFromStorage()
+      };
+
+      // Referencias DOM
+      const productGrid = document.getElementById('product-grid');
+      const searchInput = document.getElementById('search-input');
+      const filterBar = document.getElementById('filter-bar');
+      const resultsMeta = document.getElementById('results-meta');
+      const openCartBtn = document.getElementById('open-cart-btn');
+      const closeCartBtn = document.getElementById('close-cart-btn');
+      const cartBackdrop = document.getElementById('cart-backdrop');
+      const quoteDrawer = document.getElementById('quote-drawer');
+      const cartCountBadge = document.getElementById('cart-count-badge');
+      const cartItemsContainer = document.getElementById('cart-items-container');
+      const quoteExtraSection = document.getElementById('quote-extra-section');
+      const drawerTotalUnits = document.getElementById('drawer-total-units');
+      const clearCartBtn = document.getElementById('clear-cart-btn');
+      const sendWhatsappBtn = document.getElementById('send-whatsapp-btn');
+      const destinationSelect = document.getElementById('destination-select');
+      const techNotesInput = document.getElementById('tech-notes-input');
+
+      // Persistencia segura en localStorage
+      function loadCartFromStorage() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          if (!raw) return {};
+          const parsed = JSON.parse(raw);
+          return typeof parsed === 'object' && parsed !== null ? parsed : {};
+        } catch (err) {
+          return {};
+        }
+      }
+
+      function saveCartToStorage() {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(state.cart));
+        } catch (err) {
+          // Ignorar si el navegador restringe storage privado
+        }
+      }
+
+      // Constructor SVG seguro mediante createElementNS (0% innerHTML)
+      function createSvgElement(tag, attrs) {
+        const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+        Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, String(v)));
+        return el;
+      }
+
+      function buildProductGraphic(type) {
+        const svg = createSvgElement('svg', {
+          viewBox: '0 0 200 110',
+          width: '200',
+          height: '110',
+          fill: 'none',
+          'aria-hidden': 'true'
+        });
+
+        if (type === 'cylinder-std') {
+          svg.appendChild(createSvgElement('rect', { x: 24, y: 34, width: 96, height: 42, rx: 4, fill: '#1e293b', stroke: '#1d4ed8', 'stroke-width': 2.5 }));
+          svg.appendChild(createSvgElement('rect', { x: 34, y: 34, width: 10, height: 42, fill: '#3b82f6' }));
+          svg.appendChild(createSvgElement('rect', { x: 100, y: 34, width: 10, height: 42, fill: '#3b82f6' }));
+          svg.appendChild(createSvgElement('rect', { x: 120, y: 49, width: 54, height: 12, rx: 2, fill: '#64748b' }));
+          svg.appendChild(createSvgElement('rect', { x: 174, y: 44, width: 10, height: 22, rx: 2, fill: '#1d4ed8' }));
+          svg.appendChild(createSvgElement('rect', { x: 36, y: 26, width: 8, height: 8, rx: 1, fill: '#f59e0b' }));
+          svg.appendChild(createSvgElement('rect', { x: 100, y: 26, width: 8, height: 8, rx: 1, fill: '#f59e0b' }));
+        } else if (type === 'cylinder-rhv') {
+          svg.appendChild(createSvgElement('rect', { x: 20, y: 28, width: 104, height: 54, rx: 5, fill: '#0f172a', stroke: '#047857', 'stroke-width': 2.5 }));
+          svg.appendChild(createSvgElement('line', { x1: 20, y1: 40, x2: 124, y2: 40, stroke: '#334155', 'stroke-width': 2 }));
+          svg.appendChild(createSvgElement('line', { x1: 20, y1: 70, x2: 124, y2: 70, stroke: '#334155', 'stroke-width': 2 }));
+          svg.appendChild(createSvgElement('rect', { x: 124, y: 46, width: 52, height: 18, rx: 2, fill: '#475569' }));
+          svg.appendChild(createSvgElement('rect', { x: 176, y: 38, width: 12, height: 34, rx: 2, fill: '#047857' }));
+        } else if (type === 'valve-70') {
+          svg.appendChild(createSvgElement('rect', { x: 48, y: 34, width: 104, height: 46, rx: 5, fill: '#1e293b', stroke: '#1d4ed8', 'stroke-width': 2.5 }));
+          svg.appendChild(createSvgElement('circle', { cx: 74, cy: 57, r: 7, fill: '#f59e0b' }));
+          svg.appendChild(createSvgElement('circle', { cx: 100, cy: 57, r: 7, fill: '#f59e0b' }));
+          svg.appendChild(createSvgElement('circle', { cx: 126, cy: 57, r: 7, fill: '#f59e0b' }));
+          svg.appendChild(createSvgElement('rect', { x: 24, y: 48, width: 24, height: 18, rx: 3, fill: '#3b82f6' }));
+          svg.appendChild(createSvgElement('line', { x1: 152, y1: 57, x2: 176, y2: 57, stroke: '#64748b', 'stroke-width': 4 }));
+        } else if (type === 'valve-namur') {
+          svg.appendChild(createSvgElement('rect', { x: 52, y: 30, width: 96, height: 50, rx: 5, fill: '#0f172a', stroke: '#047857', 'stroke-width': 2.5 }));
+          svg.appendChild(createSvgElement('rect', { x: 26, y: 38, width: 26, height: 34, rx: 3, fill: '#1d4ed8' }));
+          svg.appendChild(createSvgElement('circle', { cx: 82, cy: 55, r: 8, stroke: '#10b981', 'stroke-width': 2.5 }));
+          svg.appendChild(createSvgElement('circle', { cx: 118, cy: 55, r: 8, stroke: '#10b981', 'stroke-width': 2.5 }));
+          svg.appendChild(createSvgElement('circle', { cx: 100, cy: 40, r: 3, fill: '#94a3b8' }));
+          svg.appendChild(createSvgElement('circle', { cx: 100, cy: 70, r: 3, fill: '#94a3b8' }));
+        } else if (type === 'solenoid') {
+          svg.appendChild(createSvgElement('rect', { x: 58, y: 54, width: 84, height: 32, rx: 4, fill: '#334155' }));
+          svg.appendChild(createSvgElement('rect', { x: 70, y: 22, width: 44, height: 32, rx: 4, fill: '#1d4ed8', stroke: '#0f172a', 'stroke-width': 2 }));
+          svg.appendChild(createSvgElement('rect', { x: 114, y: 26, width: 22, height: 22, rx: 2, fill: '#0f172a' }));
+          svg.appendChild(createSvgElement('circle', { cx: 156, cy: 70, r: 6, fill: '#f59e0b' }));
+          svg.appendChild(createSvgElement('circle', { cx: 44, cy: 70, r: 6, fill: '#f59e0b' }));
+        } else if (type === 'fittings') {
+          svg.appendChild(createSvgElement('rect', { x: 36, y: 44, width: 44, height: 22, rx: 3, fill: '#f59e0b' }));
+          svg.appendChild(createSvgElement('rect', { x: 80, y: 41, width: 14, height: 28, rx: 2, fill: '#1d4ed8' }));
+          svg.appendChild(createSvgElement('path', { d: 'M126 76 V48 H158', stroke: '#f59e0b', 'stroke-width': 16, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }));
+          svg.appendChild(createSvgElement('rect', { x: 152, y: 38, width: 12, height: 20, rx: 2, fill: '#1d4ed8' }));
+        } else if (type === 'tubing') {
+          svg.appendChild(createSvgElement('ellipse', { cx: 100, cy: 55, rx: 54, ry: 30, stroke: '#1d4ed8', 'stroke-width': 7 }));
+          svg.appendChild(createSvgElement('ellipse', { cx: 100, cy: 55, rx: 44, ry: 22, stroke: '#38bdf8', 'stroke-width': 5 }));
+          svg.appendChild(createSvgElement('path', { d: 'M144 70 L176 86', stroke: '#1d4ed8', 'stroke-width': 7, 'stroke-linecap': 'round' }));
+        } else {
+          // Sensores industriales
+          svg.appendChild(createSvgElement('rect', { x: 46, y: 42, width: 76, height: 26, rx: 5, fill: '#0f172a', stroke: '#047857', 'stroke-width': 2.5 }));
+          svg.appendChild(createSvgElement('circle', { cx: 64, cy: 55, r: 4, fill: '#10b981' }));
+          svg.appendChild(createSvgElement('path', { d: 'M122 55 C148 55, 148 80, 174 80', stroke: '#334155', 'stroke-width': 4, 'stroke-linecap': 'round' }));
+          svg.appendChild(createSvgElement('path', { d: 'M32 45 C24 50, 24 60, 32 65', stroke: '#10b981', 'stroke-width': 2.5, 'stroke-linecap': 'round' }));
+        }
+
+        return svg;
+      }
+
+      // Renderizado seguro del catálogo
+      function renderCatalog() {
+        const query = state.searchQuery.trim().toLowerCase();
+        const filtered = PRODUCTS.filter((item) => {
+          const matchesCat = state.activeCategory === 'Todos' || item.category === state.activeCategory;
+          const haystack = `${item.name} ${item.category} ${item.description} ${item.specs.join(' ')}`.toLowerCase();
+          const matchesSearch = !query || haystack.includes(query);
+          return matchesCat && matchesSearch;
+        });
+
+        // Limpiar contenedor de forma segura
+        while (productGrid.firstChild) {
+          productGrid.removeChild(productGrid.firstChild);
+        }
+
+        resultsMeta.textContent = filtered.length === 1
+          ? 'Mostrando 1 producto disponible para cotización'
+          : `Mostrando ${filtered.length} productos disponibles para cotización`;
+
+        if (filtered.length === 0) {
+          const emptyBox = document.createElement('div');
+          emptyBox.classList.add('empty-catalog');
+
+          const emptyTitle = document.createElement('h3');
+          emptyTitle.textContent = 'No encontramos coincidencias exactas en el catálogo';
+          emptyTitle.style.marginBlockEnd = '0.5rem';
+
+          const emptyText = document.createElement('p');
+          emptyText.textContent = 'Intenta con otro término técnico o consúltanos directamente por WhatsApp para equipos bajo pedido.';
+          emptyText.style.color = 'var(--text-muted)';
+          emptyText.style.marginBlockEnd = '1rem';
+
+          const resetBtn = document.createElement('button');
+          resetBtn.type = 'button';
+          resetBtn.classList.add('btn', 'btn-primary');
+          resetBtn.textContent = 'Restablecer filtros';
+          resetBtn.addEventListener('click', () => {
+            state.activeCategory = 'Todos';
+            state.searchQuery = '';
+            searchInput.value = '';
+            updateFilterButtons();
+            renderCatalog();
+          });
+
+          emptyBox.appendChild(emptyTitle);
+          emptyBox.appendChild(emptyText);
+          emptyBox.appendChild(resetBtn);
+          productGrid.appendChild(emptyBox);
+          return;
+        }
+
+        filtered.forEach((product) => {
+          const wrapper = document.createElement('article');
+          wrapper.classList.add('card-container');
+
+          const card = document.createElement('div');
+          card.classList.add('product-card');
+
+          // Media
+          const media = document.createElement('div');
+          media.classList.add('product-media');
+
+          const catBadge = document.createElement('span');
+          catBadge.classList.add('product-category-tag');
+          catBadge.textContent = product.category;
+
+          media.appendChild(catBadge);
+          media.appendChild(buildProductGraphic(product.iconType));
+
+          // Body
+          const body = document.createElement('div');
+          body.classList.add('product-body');
+
+          const infoTop = document.createElement('div');
+
+          const title = document.createElement('h3');
+          title.classList.add('product-title');
+          title.textContent = product.name;
+
+          const desc = document.createElement('p');
+          desc.classList.add('product-desc');
+          desc.textContent = product.description;
+
+          const specsList = document.createElement('div');
+          specsList.classList.add('spec-tags');
+          product.specs.forEach((specText) => {
+            const chip = document.createElement('span');
+            chip.classList.add('spec-tag');
+            chip.textContent = specText;
+            specsList.appendChild(chip);
+          });
+
+          infoTop.appendChild(title);
+          infoTop.appendChild(desc);
+          infoTop.appendChild(specsList);
+
+          // Footer con botón de cotización
+          const footer = document.createElement('div');
+          footer.classList.add('product-footer');
+
+          const statusRow = document.createElement('div');
+          statusRow.classList.add('quote-status-label');
+
+          const statusText = document.createElement('span');
+          statusText.textContent = 'Modalidad: Cotización directa';
+
+          const inCartQty = state.cart[product.id] || 0;
+          const qtyIndicator = document.createElement('span');
+          qtyIndicator.textContent = inCartQty > 0 ? `En lista: ${inCartQty}` : 'Stock / Bajo pedido';
+
+          statusRow.appendChild(statusText);
+          statusRow.appendChild(qtyIndicator);
+
+          const addBtn = document.createElement('button');
+          addBtn.type = 'button';
+          addBtn.classList.add('btn', 'btn-primary', 'add-quote-btn');
+          addBtn.setAttribute('data-action', 'add-product');
+          addBtn.setAttribute('data-id', product.id);
+          addBtn.textContent = inCartQty > 0 ? '+ Añadir otra unidad a Cotización' : '+ Añadir a Cotización';
+
+          footer.appendChild(statusRow);
+          footer.appendChild(addBtn);
+
+          body.appendChild(infoTop);
+          body.appendChild(footer);
+
+          card.appendChild(media);
+          card.appendChild(body);
+          wrapper.appendChild(card);
+          productGrid.appendChild(wrapper);
+        });
+      }
+
+      // Renderizado seguro del carrito de cotización
+      function renderCart() {
+        const entries = Object.entries(state.cart).filter(([, qty]) => qty > 0);
+        const totalUnits = entries.reduce((sum, [, qty]) => sum + qty, 0);
+
+        cartCountBadge.textContent = String(totalUnits);
+        drawerTotalUnits.textContent = `${totalUnits} ${totalUnits === 1 ? 'unid.' : 'unid.'}`;
+
+        while (cartItemsContainer.firstChild) {
+          cartItemsContainer.removeChild(cartItemsContainer.firstChild);
+        }
+
+        if (entries.length === 0) {
+          quoteExtraSection.hidden = true;
+          sendWhatsappBtn.disabled = true;
+          sendWhatsappBtn.style.opacity = '0.6';
+          sendWhatsappBtn.style.cursor = 'not-allowed';
+
+          const emptyDiv = document.createElement('div');
+          emptyDiv.classList.add('cart-empty-state');
+
+          const pTitle = document.createElement('strong');
+          pTitle.style.color = 'var(--text)';
+          pTitle.textContent = 'Tu lista de cotización está vacía';
+
+          const pDesc = document.createElement('p');
+          pDesc.textContent = 'Selecciona cilindros, válvulas, racores o sensores del catálogo para armar tu solicitud.';
+
+          emptyDiv.appendChild(pTitle);
+          emptyDiv.appendChild(pDesc);
+          cartItemsContainer.appendChild(emptyDiv);
+          return;
+        }
+
+        quoteExtraSection.hidden = false;
+        sendWhatsappBtn.disabled = false;
+        sendWhatsappBtn.style.opacity = '1';
+        sendWhatsappBtn.style.cursor = 'pointer';
+
+        entries.forEach(([productId, qty]) => {
+          const product = PRODUCTS.find((p) => p.id === productId);
+          if (!product) return;
+
+          const itemCard = document.createElement('div');
+          itemCard.classList.add('cart-item');
+
+          const topRow = document.createElement('div');
+          topRow.classList.add('cart-item-top');
+
+          const metaCol = document.createElement('div');
+          const nameEl = document.createElement('div');
+          nameEl.classList.add('cart-item-name');
+          nameEl.textContent = product.name;
+
+          const catEl = document.createElement('div');
+          catEl.classList.add('cart-item-cat');
+          catEl.textContent = product.category;
+
+          metaCol.appendChild(nameEl);
+          metaCol.appendChild(catEl);
+
+          const removeBtn = document.createElement('button');
+          removeBtn.type = 'button';
+          removeBtn.classList.add('remove-item-btn');
+          removeBtn.setAttribute('data-action', 'remove-item');
+          removeBtn.setAttribute('data-id', product.id);
+          removeBtn.setAttribute('aria-label', `Eliminar ${product.name} de la cotización`);
+          removeBtn.textContent = '✕';
+
+          topRow.appendChild(metaCol);
+          topRow.appendChild(removeBtn);
+
+          const controlsRow = document.createElement('div');
+          controlsRow.classList.add('qty-controls');
+
+          const labelSpan = document.createElement('span');
+          labelSpan.style.fontSize = '0.85rem';
+          labelSpan.style.color = 'var(--text-muted)';
+          labelSpan.textContent = 'Cantidad requerida:';
+
+          const stepper = document.createElement('div');
+          stepper.classList.add('qty-stepper');
+
+          const decBtn = document.createElement('button');
+          decBtn.type = 'button';
+          decBtn.classList.add('qty-btn');
+          decBtn.setAttribute('data-action', 'decrease-qty');
+          decBtn.setAttribute('data-id', product.id);
+          decBtn.setAttribute('aria-label', `Disminuir cantidad de ${product.name}`);
+          decBtn.textContent = '−';
+
+          const valSpan = document.createElement('span');
+          valSpan.classList.add('qty-value');
+          valSpan.textContent = String(qty);
+
+          const incBtn = document.createElement('button');
+          incBtn.type = 'button';
+          incBtn.classList.add('qty-btn');
+          incBtn.setAttribute('data-action', 'increase-qty');
+          incBtn.setAttribute('data-id', product.id);
+          incBtn.setAttribute('aria-label', `Aumentar cantidad de ${product.name}`);
+          incBtn.textContent = '+';
+
+          stepper.appendChild(decBtn);
+          stepper.appendChild(valSpan);
+          stepper.appendChild(incBtn);
+
+          controlsRow.appendChild(labelSpan);
+          controlsRow.appendChild(stepper);
+
+          itemCard.appendChild(topRow);
+          itemCard.appendChild(controlsRow);
+          cartItemsContainer.appendChild(itemCard);
+        });
+      }
+
+      function updateFilterButtons() {
+        const buttons = filterBar.querySelectorAll('.filter-btn');
+        buttons.forEach((btn) => {
+          const isSelected = btn.getAttribute('data-category') === state.activeCategory;
+          btn.setAttribute('aria-pressed', String(isSelected));
+        });
+      }
+
+      // Control del Panel Desplegable (Drawer)
+      function openDrawer() {
+        quoteDrawer.hidden = false;
+        // Forzar reflow antes de animar
+        void quoteDrawer.offsetWidth;
+        quoteDrawer.classList.add('active');
+        cartBackdrop.classList.add('active');
+        openCartBtn.setAttribute('aria-expanded', 'true');
+        closeCartBtn.focus();
+      }
+
+      function closeDrawer() {
+        quoteDrawer.classList.remove('active');
+        cartBackdrop.classList.remove('active');
+        openCartBtn.setAttribute('aria-expanded', 'false');
+        setTimeout(() => {
+          if (!quoteDrawer.classList.contains('active')) {
+            quoteDrawer.hidden = true;
+          }
+        }, 260);
+        openCartBtn.focus();
+      }
+
+      // Delegación de eventos para el catálogo (INP óptimo)
+      productGrid.addEventListener('click', (event) => {
+        const btn = event.target.closest('button[data-action="add-product"]');
+        if (!btn) return;
+
+        const productId = btn.getAttribute('data-id');
+        if (!productId) return;
+
+        state.cart[productId] = (state.cart[productId] || 0) + 1;
+        saveCartToStorage();
+        renderCart();
+        renderCatalog();
+
+        // Retroalimentación visual inmediata en el botón actualizado
+        const updatedBtn = productGrid.querySelector(`button[data-id="${productId}"]`);
+        if (updatedBtn) {
+          updatedBtn.classList.add('added-feedback');
+          updatedBtn.textContent = '✓ Añadido a tu cotización';
+          setTimeout(() => {
+            renderCatalog();
+          }, 950);
+        }
+      });
+
+      // Delegación de eventos para el panel de cotización
+      cartItemsContainer.addEventListener('click', (event) => {
+        const btn = event.target.closest('button[data-action]');
+        if (!btn) return;
+
+        const action = btn.getAttribute('data-action');
+        const productId = btn.getAttribute('data-id');
+        if (!productId || !state.cart[productId]) return;
+
+        if (action === 'increase-qty') {
+          state.cart[productId] += 1;
+        } else if (action === 'decrease-qty') {
+          state.cart[productId] -= 1;
+          if (state.cart[productId] <= 0) {
+            delete state.cart[productId];
+          }
+        } else if (action === 'remove-item') {
+          delete state.cart[productId];
+        }
+
+        saveCartToStorage();
+        renderCart();
+        renderCatalog();
+      });
+
+      // Filtros y búsqueda en tiempo real
+      filterBar.addEventListener('click', (event) => {
+        const btn = event.target.closest('.filter-btn');
+        if (!btn) return;
+        state.activeCategory = btn.getAttribute('data-category') || 'Todos';
+        updateFilterButtons();
+        renderCatalog();
+      });
+
+      searchInput.addEventListener('input', (event) => {
+        state.searchQuery = event.target.value;
+        renderCatalog();
+      });
+
+      // Eventos de apertura/cierre de Drawer
+      openCartBtn.addEventListener('click', openDrawer);
+      closeCartBtn.addEventListener('click', closeDrawer);
+      cartBackdrop.addEventListener('click', closeDrawer);
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && quoteDrawer.classList.contains('active')) {
+          closeDrawer();
+        }
+      });
+
+      clearCartBtn.addEventListener('click', () => {
+        state.cart = {};
+        saveCartToStorage();
+        renderCart();
+        renderCatalog();
+      });
+
+      // Generación segura de mensaje estructurado para WhatsApp
+      sendWhatsappBtn.addEventListener('click', () => {
+        const entries = Object.entries(state.cart).filter(([, qty]) => qty > 0);
+        if (entries.length === 0) return;
+
+        let totalUnits = 0;
+        const lines = [
+          'Hola *Kedem Control SRL*, solicito cotización formal de los siguientes componentes neumáticos:',
+          ''
+        ];
+
+        entries.forEach(([productId, qty], idx) => {
+          const product = PRODUCTS.find((p) => p.id === productId);
+          if (!product) return;
+          totalUnits += qty;
+          lines.push(`${idx + 1}. *${product.name}* (${product.category}) — Cant: *${qty} unid.*`);
+        });
+
+        const destination = destinationSelect.value || 'Santa Cruz';
+        const notes = techNotesInput.value.trim();
+
+        lines.push('');
+        lines.push(`*Total de unidades:* ${totalUnits} unid.`);
+        lines.push(`*Destino de envío:* ${destination}, Bolivia`);
+        if (notes) {
+          lines.push(`*Especificaciones técnicas:* ${notes}`);
+        }
+        lines.push('');
+        lines.push('Quedo atento a su disponibilidad y presupuesto. Muchas gracias.');
+
+        const message = lines.join('\n');
+        const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+
+        // Verificación estricta de esquema permitido
+        if (whatsappUrl.startsWith('https://wa.me/')) {
+          window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+        }
+      });
+
+      // Inicialización
+      renderCatalog();
+      renderCart();
+    });
+  </script>
+</body>
+</html>
